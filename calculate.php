@@ -20,11 +20,11 @@ $calculate=new Prices();
 
   
 echo("桃の最高値は".$maxprice."円です");
-echo"\n";
+echo"<br>";
 echo("桃の最安値は".$minprice."円です");
-echo"\n";
+echo"<br>";
 echo ("桃の平均価格は".$avgprice."円です");
-echo "\n";
+echo "<br>";
 
 //乱数の範囲を設定
 $Bminprice=400;
@@ -42,8 +42,8 @@ $calculate=new Prices();
 
   
 echo("イチゴの最高値は".$maxprice."円です");
-echo"\n";
+echo"<br>";
 echo("イチゴの最安値は".$minprice."円です");
-echo"\n";
+echo"<br>";
 echo ("イチゴの平均価格は".$avgprice."円です");
-echo "\n";
+echo "<br>";
